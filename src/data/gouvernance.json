@@ -1,0 +1,72 @@
+{
+  "maire": {
+    "full_name": "Zénaba Édith Riyaira",
+    "role": "Maire",
+    "verification": "verifie",
+    "source": "Cour Suprême du Tchad, janvier 2025",
+    "party": "À confirmer",
+    "photo_url": null
+  },
+  "adjoint": {
+    "full_name": "Hassan Mahamat Bako",
+    "role": "Maire-adjoint",
+    "verification": "verifie",
+    "source": "Salaminfo, décembre 2025",
+    "photo_url": null
+  },
+  "administratrice_deleguee": {
+    "full_name": "Djedangdé Virginie",
+    "role": "Administratrice déléguée de l'État",
+    "decree": "Décret n°1210/PR/PM/MATD/2024 du 23 octobre 2024",
+    "verification": "verifie",
+    "photo_url": null
+  },
+  "elections_2024": {
+    "date": "2024-12-29",
+    "results_date": "2025-01-21",
+    "source": "Cour Suprême du Tchad (PDF officiel)",
+    "verification": "verifie",
+    "inscrits": 54477,
+    "votants": 23159,
+    "bulletins_nuls": 1143,
+    "suffrages_exprimes": 22016,
+    "taux_participation_pct": 42.51,
+    "total_sieges": 18,
+    "resultats": [
+      { "parti": "MPS", "voix": 10282, "pct": 46.7, "sieges": 9 },
+      { "parti": "N'DJAMENA PROPRE", "voix": 4123, "pct": 18.73, "sieges": 3 },
+      { "parti": "PDI", "voix": 2834, "pct": 12.87, "sieges": 2 },
+      { "parti": "ATR", "voix": 2153, "pct": 9.78, "sieges": 2 },
+      { "parti": "UPDC/6", "voix": 2084, "pct": 9.47, "sieges": 2 }
+    ],
+    "note_contradiction": "Le site ndjamena6.com mentionne 23 conseillers. Les résultats officiels de la Cour Suprême établissent 18 sièges. La source officielle prévaut."
+  },
+  "conseillers": [
+    "Aissatou Adam Ngarmane",
+    "Adèle Meskin Simon",
+    "Hassane Djillah Mbaitel",
+    "Ali Arabi Hassan",
+    "Hassan Mahamat Bako",
+    "Fatime Bintou",
+    "Goni Gana Abba Modou",
+    "Gabdibe Woutene Gabdibe",
+    "Yamassoum Madjitoide Nagoum",
+    "Ndolegonodji Kaintar",
+    "Kabet Kadi Mahamout",
+    "Mass-Dingam Mathurin",
+    "Abakar Badai",
+    "Zara Kandi Kara",
+    "Hassan Tom Tahir",
+    "Tamadji Germanaine",
+    "Kessely Patrick",
+    "Zenaba Edith Riyaira"
+  ],
+  "conseillers_verification": "verifie",
+  "conseillers_source": "Cour Suprême du Tchad, PDF officiel, janvier 2025",
+  "tutelle": {
+    "mairie_ville": "Commune de la Ville de N'Djaména",
+    "maire_ville": "Senoussi Hassana Abdoulaye (depuis février 2025)",
+    "delegue_general": "Amina Kodjiana",
+    "ministere": "Ministère de l'Administration du Territoire et de la Décentralisation"
+  }
+}

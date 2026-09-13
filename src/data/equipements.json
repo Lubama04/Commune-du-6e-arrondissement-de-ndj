@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cite-ocam",
+    "name": "Cité OCAM",
+    "type": "Lieu de mémoire / habitat",
+    "quartier": "Moursal",
+    "description": "Habitée depuis l'ère du premier président François Tombalbaye. Le général Félix Malloum y fut emprisonné avant le coup d'État du 13 avril 1975.",
+    "verification": "verifie"
+  },
+  {
+    "id": "marche-arc-en-ciel",
+    "name": "Marché Espace Arc-en-Ciel",
+    "type": "Marché",
+    "quartier": "Moursal",
+    "description": "Ex-Marché Mokolo, rebaptisé en octobre 2018.",
+    "verification": "verifie"
+  },
+  {
+    "id": "universite-emi-koussi",
+    "name": "Université Emi Koussi",
+    "type": "Enseignement supérieur",
+    "quartier": "Moursal",
+    "description": "Située avenue Kondol.",
+    "verification": "verifie"
+  },
+  {
+    "id": "building-moursal",
+    "name": "Building de Moursal",
+    "type": "Immeuble administratif",
+    "quartier": "Moursal",
+    "description": "Immeuble administratif de 10 étages.",
+    "verification": "verifie"
+  },
+  {
+    "id": "stade-idriss-mahamat-ouya",
+    "name": "Stade Omnisports Idriss Mahamat Ouya",
+    "type": "Équipement sportif",
+    "quartier": "Moursal",
+    "description": "Stade de l'US de Moursal.",
+    "verification": "verifie"
+  }
+]

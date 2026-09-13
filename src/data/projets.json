@@ -1,0 +1,60 @@
+[
+  {
+    "id": "pacaj",
+    "slug": "canal-des-jardiniers-pacaj",
+    "title": "Aménagement du Canal des Jardiniers (PACAJ)",
+    "description": "Projet d'aménagement d'un canal de 2,2 km traversant les quartiers de Ridina, Ardep-Djoumal, Paris-Congo et Moursal pour déboucher sur le Chari. Objectif : améliorer durablement le cadre de vie de 140 000 habitants, réduire les inondations et assainir les eaux pluviales.",
+    "category": "infrastructure_environnement",
+    "status": "en_cours",
+    "start_date": "2023-02-08",
+    "end_date": null,
+    "budget_fcfa": 7182173702,
+    "funder": "Agence Française de Développement (AFD) — 15 M€",
+    "partner": "Entreprise ENCOBAT",
+    "advancement_pct": 80,
+    "advancement_date": "2025-05-30",
+    "advancement_source": "Visite ambassadeur France Éric Gérard + directeur AFD Philippe Chedanne",
+    "beneficiaries": "140 000 habitants (estimation AFD)",
+    "quartiers": ["Paris-Congo", "Moursal"],
+    "verification": "verifie"
+  },
+  {
+    "id": "pdc-2025",
+    "slug": "plan-developpement-communal",
+    "title": "Plan de Développement Communal (PDC)",
+    "description": "Document stratégique participatif définissant les priorités de développement de la commune : gouvernance locale, infrastructures, santé, éducation, économie locale, environnement, jeunesse et cohésion sociale.",
+    "category": "gouvernance",
+    "status": "realise",
+    "start_date": null,
+    "end_date": "2025-12-10",
+    "budget_fcfa": null,
+    "funder": "Union européenne (Programme d'appui à la gouvernance du Tchad)",
+    "verification": "verifie"
+  },
+  {
+    "id": "reprofilage-routes-2026",
+    "slug": "reprofilage-routes-2026",
+    "title": "Reprofilage et aménagement des routes",
+    "description": "Lancement d'opérations de reprofilage des axes internes pour prévenir les inondations de la saison des pluies 2026.",
+    "category": "infrastructure",
+    "status": "en_cours",
+    "start_date": "2026-05-04",
+    "end_date": null,
+    "budget_fcfa": null,
+    "funder": "Budget communal",
+    "verification": "verifie"
+  },
+  {
+    "id": "materiel-assainissement-2026",
+    "slug": "materiel-assainissement-2026",
+    "title": "Dotation en matériel d'assainissement",
+    "description": "Réception de 180 matériels d'assainissement pour renforcer les capacités d'entretien du cadre de vie.",
+    "category": "salubrité",
+    "status": "realise",
+    "start_date": "2026-08-14",
+    "end_date": "2026-08-14",
+    "budget_fcfa": null,
+    "funder": "À confirmer",
+    "verification": "verifie"
+  }
+]

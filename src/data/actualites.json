@@ -1,0 +1,92 @@
+[
+  {
+    "id": "alerte-cholera-2026",
+    "slug": "alerte-cholera-ndjamena-2026",
+    "title": "Alerte choléra : N'Djaména en riposte sanitaire",
+    "excerpt": "Depuis le 24 juillet 2026, N'Djaména est touchée par le choléra. La commune renforce ses actions de sensibilisation et d'assainissement.",
+    "content": "Le 24 juillet 2026, le ministère de la Santé publique a officiellement déclaré une épidémie de choléra à N'Djaména. Les districts N'Djaména Nord et Centre sont les plus touchés. La Commune du 6ᵉ arrondissement participe activement aux actions de riposte : sensibilisation des ménages, distribution de chlore, renforcement de l'assainissement. Pour vous protéger : buvez de l'eau traitée, lavez-vous les mains régulièrement, consultez un agent de santé au moindre symptôme.",
+    "date": "2026-07-24",
+    "category": "Alerte sanitaire",
+    "is_alert": true,
+    "alert_end_date": "2026-12-31",
+    "source": "Ministère de la Santé publique / OMS-AFRO",
+    "verification": "verifie"
+  },
+  {
+    "id": "actu-7",
+    "slug": "materiel-assainissement-aout-2026",
+    "title": "180 matériels d'assainissement réceptionnés par la commune",
+    "excerpt": "La Commune du 6ᵉ arrondissement a réceptionné 180 équipements d'assainissement pour renforcer ses capacités d'entretien du cadre de vie.",
+    "content": "Le 14 août 2026, la Commune du 6ᵉ arrondissement a réceptionné 180 équipements d'assainissement destinés à renforcer ses capacités d'entretien du cadre de vie, dans un contexte de vigilance sanitaire accrue lié à l'épidémie de choléra en cours à N'Djaména.",
+    "date": "2026-08-14",
+    "category": "Salubrité",
+    "source": "Salaminfo",
+    "verification": "verifie"
+  },
+  {
+    "id": "actu-6",
+    "slug": "liberation-espaces-publics-2026",
+    "title": "La commune lance une opération de libération des espaces publics",
+    "excerpt": "Un délai de 5 jours a été accordé aux occupants illicites des voies et espaces publics pour libérer les lieux.",
+    "content": "Le 26 mai 2026, la Commune du 6ᵉ arrondissement a lancé une opération de libération des espaces publics occupés illégalement. Un délai de 5 jours a été accordé aux occupants pour évacuer volontairement les voies et espaces publics concernés.",
+    "date": "2026-05-26",
+    "category": "Salubrité",
+    "source": "Toumaï Web Médias",
+    "verification": "verifie"
+  },
+  {
+    "id": "actu-5",
+    "slug": "reprofilage-routes-mai-2026",
+    "title": "Lancement du reprofilage des routes pour prévenir les inondations",
+    "excerpt": "La commune lance des travaux de reprofilage de ses axes internes en prévision de la saison des pluies 2026.",
+    "content": "Le 4 mai 2026, la Commune du 6ᵉ arrondissement a lancé des travaux de reprofilage de ses axes internes afin de prévenir les inondations attendues durant la saison des pluies 2026.",
+    "date": "2026-05-04",
+    "category": "Infrastructure",
+    "source": "Salaminfo",
+    "verification": "verifie"
+  },
+  {
+    "id": "actu-4",
+    "slug": "senateurs-visite-mairie-2026",
+    "title": "Visite de sénateurs à la Mairie du 6ᵉ arrondissement",
+    "excerpt": "Les sénateurs Mariam Ahmat Djemil et Ibrahim Foullah ont visité la mairie pour des échanges sur la décentralisation et les infrastructures.",
+    "content": "Le 9 février 2026, les sénateurs Mariam Ahmat Djemil et Ibrahim Foullah ont visité la Mairie du 6ᵉ arrondissement pour des échanges avec les autorités municipales sur les enjeux de décentralisation et d'infrastructures locales.",
+    "date": "2026-02-09",
+    "category": "Institutionnel",
+    "source": "Tribune Échos",
+    "verification": "verifie"
+  },
+  {
+    "id": "actu-3",
+    "slug": "budget-2026-adopte",
+    "title": "Le budget primitif 2026 adopté en session ordinaire",
+    "excerpt": "La session budgétaire du 30 décembre 2025 a officiellement adopté le budget communal pour l'exercice 2026.",
+    "content": "Le 30 décembre 2025, le conseil municipal du 6ᵉ arrondissement, réuni en session ordinaire, a officiellement adopté le budget primitif de la commune pour l'exercice 2026.",
+    "date": "2025-12-30",
+    "category": "Finances",
+    "source": "Salaminfo",
+    "verification": "verifie"
+  },
+  {
+    "id": "actu-2",
+    "slug": "validation-pdc-2025",
+    "title": "Le 6ᵉ arrondissement valide son Plan de Développement Communal",
+    "excerpt": "Atelier de validation du PDC présidé par la maire Zénaba Édith Riyaira, avec l'appui de l'Union européenne.",
+    "content": "Le 10 décembre 2025, la Commune du 6ᵉ arrondissement a organisé un atelier de validation de son Plan de Développement Communal (PDC). La cérémonie, présidée par la maire Zénaba Édith Riyaira, a réuni les services municipaux, les partenaires techniques et les représentants de la société civile. Le PDC a été élaboré avec l'appui financier et technique de l'Union européenne dans le cadre du Programme d'appui à la gouvernance du Tchad.",
+    "date": "2025-12-10",
+    "category": "Développement",
+    "source": "Salaminfo",
+    "verification": "verifie"
+  },
+  {
+    "id": "actu-1",
+    "slug": "elections-communales-2024",
+    "title": "Élections communales : 18 conseillers élus au 6ᵉ arrondissement",
+    "excerpt": "Le scrutin du 29 décembre 2024 a donné 18 sièges au conseil communal du 6ᵉ, répartis entre 5 listes. Le MPS obtient 9 sièges.",
+    "content": "Le 29 décembre 2024, les électeurs du 6ᵉ arrondissement ont élu leurs 18 conseillers municipaux. Avec 54 477 inscrits et un taux de participation de 42,51 %, le MPS arrive largement en tête (9 sièges). Les résultats définitifs ont été proclamés par la Cour Suprême le 21 janvier 2025.",
+    "date": "2024-12-29",
+    "category": "Politique",
+    "source": "Cour Suprême du Tchad",
+    "verification": "verifie"
+  }
+]

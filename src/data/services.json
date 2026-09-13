@@ -1,0 +1,64 @@
+[
+  {
+    "id": "acte-naissance",
+    "slug": "acte-de-naissance",
+    "title": "Acte de naissance",
+    "category": "État civil",
+    "description": "Délivrance et légalisation d'actes de naissance pour les résidents du 6ᵉ arrondissement.",
+    "required_documents": ["À confirmer auprès de la mairie"],
+    "procedure": "Se présenter au service de l'état civil de la mairie avec les pièces requises.",
+    "delay": "À confirmer",
+    "cost_fcfa": null,
+    "cost_note": "À confirmer auprès de la mairie",
+    "is_online": false,
+    "contact": "Mairie du 6ᵉ arrondissement — Service de l'état civil",
+    "verification": "a_confirmer"
+  },
+  {
+    "id": "acte-mariage",
+    "slug": "acte-de-mariage",
+    "title": "Acte de mariage",
+    "category": "État civil",
+    "description": "Enregistrement et délivrance d'actes de mariage.",
+    "required_documents": ["À confirmer auprès de la mairie"],
+    "procedure": "À confirmer auprès de la mairie",
+    "cost_fcfa": null,
+    "is_online": false,
+    "verification": "a_confirmer"
+  },
+  {
+    "id": "acte-deces",
+    "slug": "acte-de-deces",
+    "title": "Acte de décès",
+    "category": "État civil",
+    "description": "Enregistrement et délivrance d'actes de décès.",
+    "required_documents": ["À confirmer auprès de la mairie"],
+    "procedure": "À confirmer auprès de la mairie",
+    "cost_fcfa": null,
+    "is_online": false,
+    "verification": "a_confirmer"
+  },
+  {
+    "id": "legalisation",
+    "slug": "legalisation",
+    "title": "Légalisation de documents",
+    "category": "État civil",
+    "description": "Légalisation de signatures et de documents administratifs.",
+    "required_documents": ["À confirmer"],
+    "cost_fcfa": null,
+    "is_online": false,
+    "verification": "a_confirmer"
+  },
+  {
+    "id": "salubrité",
+    "slug": "salubrité-hygiène",
+    "title": "Signalement d'insalubrité",
+    "category": "Cadre de vie",
+    "description": "Signalement de problèmes d'hygiène, de dépôts sauvages d'ordures ou d'inondations.",
+    "required_documents": [],
+    "procedure": "Se présenter ou contacter la mairie.",
+    "cost_fcfa": null,
+    "is_online": false,
+    "verification": "a_confirmer"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ue",
+    "name": "Union européenne",
+    "type": "cooperation_internationale",
+    "description": "Appui à l'élaboration du Plan de Développement Communal (PDC) via le Programme d'appui à la gouvernance du Tchad.",
+    "project": "PDC du 6ᵉ arrondissement",
+    "period": "2024–2025",
+    "logo_url": null,
+    "verification": "verifie"
+  },
+  {
+    "id": "afd",
+    "name": "Agence Française de Développement (AFD)",
+    "type": "cooperation_bilaterale",
+    "description": "Financement du projet d'aménagement du Canal des Jardiniers (PACAJ) — 15 M€ pour améliorer le cadre de vie de 140 000 habitants à N'Djaména, dont Paris-Congo et Moursal.",
+    "project": "Canal des Jardiniers (PACAJ)",
+    "period": "2023–2026",
+    "logo_url": null,
+    "verification": "verifie"
+  },
+  {
+    "id": "oms",
+    "name": "Organisation Mondiale de la Santé (OMS)",
+    "type": "agence_onu",
+    "description": "Appui au Plan communal de prévention et de riposte contre le choléra.",
+    "project": "Riposte choléra N'Djaména 2026",
+    "period": "2026",
+    "logo_url": null,
+    "verification": "verifie"
+  },
+  {
+    "id": "mairie-ville",
+    "name": "Commune de la Ville de N'Djaména",
+    "type": "tutelle",
+    "description": "Autorité de tutelle principale des communes d'arrondissement.",
+    "logo_url": null,
+    "verification": "verifie"
+  }
+]

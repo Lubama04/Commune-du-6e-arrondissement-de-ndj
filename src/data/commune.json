@@ -1,0 +1,50 @@
+{
+  "id": "commune-6-ndjamena",
+  "name": "Commune du 6ᵉ Arrondissement de N'Djaména",
+  "name_short": "6ᵉ Arrondissement",
+  "city": "N'Djaména",
+  "country": "République du Tchad",
+  "region": "N'Djaména (statut particulier)",
+  "description": "La Commune du 6ᵉ Arrondissement de N'Djaména est la plus petite des dix communes d'arrondissement de la capitale tchadienne. Elle couvre les quartiers de Moursal et Paris-Congo, organisés en 27 carrés, bordée par le fleuve Chari au sud et le Canal des Jardiniers à l'ouest.",
+  "area_ha": 430,
+  "area_source": "ndjamena6.com",
+  "area_verification": "a_confirmer",
+  "population_estimate": 66000,
+  "population_year": null,
+  "population_source": "ndjamena6.com (non daté)",
+  "population_verification": "a_confirmer",
+  "population_note": "Données non datées. Le RGPH-3 (2026) est en cours de traitement — résultats officiels à venir.",
+  "registered_voters_2024": 54477,
+  "registered_voters_source": "Cour Suprême du Tchad, janvier 2025",
+  "registered_voters_verification": "verifie",
+  "quarters_count": 2,
+  "carres_count": 27,
+  "device": "Unité – Travail – Progrès",
+  "status": "Commune d'arrondissement",
+  "legal_texts": [
+    "Décret n°285/PR/PM/MISP/2009 du 10 mars 2009",
+    "Loi n°009/PR/05 du 15 juillet 2005"
+  ],
+  "boundaries": {
+    "north": "Avenue Charles De Gaulle",
+    "south": "Fleuve Chari",
+    "east": "Voie de contournement (prolongement pont Chagoua)",
+    "west": "Canal des Jardiniers (Canal d'Ardep-Djoumal)"
+  },
+  "boundaries_verification": "verifie",
+  "coordinates": {
+    "lat": 12.09464,
+    "lng": 15.07539,
+    "precision": "approximatif — quartier Moursal (OpenStreetMap)"
+  },
+  "mairie_address": "À confirmer auprès de la mairie",
+  "mairie_phone": "+235 66 44 88 30",
+  "mairie_phone_verification": "a_confirmer",
+  "mairie_email": null,
+  "mairie_email_verification": "non_trouve",
+  "mairie_hours": "À confirmer auprès de la mairie",
+  "website": "ndjamena6.com",
+  "website_official_status": "a_confirmer",
+  "logo_url": null,
+  "logo_verification": "non_trouve"
+}

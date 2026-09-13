@@ -1,0 +1,32 @@
+[
+  {
+    "id": "moursal",
+    "slug": "moursal",
+    "name": "Moursal",
+    "description": "L'un des quartiers les plus anciens et les plus animés de N'Djaména. Moursal abrite la Cité OCAM — lieu de mémoire historique —, le marché Espace Arc-en-Ciel, l'Université Emi Koussi et plusieurs établissements scolaires renommés.",
+    "history": "La Cité OCAM (Organisation pour la Coopération et l'Assistance Médicale) est habitée depuis l'ère du premier président François Tombalbaye. Le général Félix Malloum y fut emprisonné avant le coup d'État du 13 avril 1975.",
+    "history_verification": "verifie",
+    "population_estimate": null,
+    "population_note": "Données de population par quartier non disponibles publiquement.",
+    "coordinates": { "lat": 12.09464, "lng": 15.07539 },
+    "equipements_notables": [
+      "Cité OCAM",
+      "Marché Espace Arc-en-Ciel (ex-Marché Mokolo, rebaptisé octobre 2018)",
+      "Université Emi Koussi (avenue Kondol)",
+      "Building de Moursal (immeuble administratif 10 étages)",
+      "Stade Omnisports Idriss Mahamat Ouya (US de Moursal)"
+    ],
+    "verification": "verifie"
+  },
+  {
+    "id": "paris-congo",
+    "slug": "paris-congo",
+    "name": "Paris-Congo",
+    "description": "Quartier résidentiel et populaire, Paris-Congo est traversé par le Canal des Jardiniers qui borde le 6ᵉ arrondissement à l'ouest. Il jouxte le 3ᵉ arrondissement et bénéficiera directement du projet d'aménagement du canal (PACAJ) financé par l'AFD.",
+    "history": "Quartier à l'histoire populaire dense, Paris-Congo tire son nom de l'époque postcoloniale.",
+    "history_verification": "a_confirmer",
+    "population_estimate": null,
+    "coordinates": { "lat": 12.092, "lng": 15.069 },
+    "verification": "verifie"
+  }
+]

@@ -1,0 +1,61 @@
+:root {
+  /* === BRAND === */
+  --color-brand-primary: #1b4332; /* Vert forêt profond — autorité, territoire, Chari */
+  --color-brand-secondary: #2d6a4f; /* Vert moyen — complémentaire */
+  --color-accent: #d4a017; /* Or sable du Sahel — accent précis, chaleur, soleil */
+  --color-accent-hover: #b8860b; /* Or foncé — hover */
+
+  /* === SURFACES === */
+  --color-surface: #fafaf7; /* Blanc cassé légèrement chaud */
+  --color-surface-elevated: #ffffff;
+  --color-surface-muted: #f0ede6; /* Parchemin léger */
+  --color-surface-dark: #0f2419; /* Vert très sombre pour sections foncées */
+
+  /* === TEXTE === */
+  --color-text-primary: #0f2419; /* Quasi-noir vert */
+  --color-text-secondary: #4a6555; /* Gris-vert */
+  --color-text-muted: #7a9a85;
+  --color-text-inverse: #fafaf7; /* Sur fonds sombres */
+
+  /* === ÉTATS === */
+  --color-success: #2d6a4f;
+  --color-warning: #d4a017;
+  --color-error: #c0392b;
+  --color-info: #2471a3;
+
+  /* === BORDURES === */
+  --color-border: #d4cfc4;
+  --color-border-strong: #1b4332;
+
+  /* === FIABILITÉ (badges de données) === */
+  --color-verifie: #1b4332;
+  --color-a-confirmer: #d4a017;
+  --color-non-trouve: #95a5a6;
+
+  /* === TYPOGRAPHIE === */
+  --font-display: 'Spectral', Georgia, serif; /* Titres — caractère éditorial */
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif; /* Corps — lisibilité moderne */
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace; /* Données, codes */
+
+  /* === ESPACEMENT (système 8pt) === */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* === LAYOUT === */
+  --max-width-content: 1280px;
+  --max-width-text: 720px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  color-scheme: light;
+}

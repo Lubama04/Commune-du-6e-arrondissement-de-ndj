@@ -1,0 +1,67 @@
+[
+  {
+    "id": "superficie",
+    "indicator": "Superficie",
+    "value": 430,
+    "unit": "hectares",
+    "year": null,
+    "source": "ndjamena6.com",
+    "reliability": "a_confirmer",
+    "note": "Plus petite commune d'arrondissement de N'Djaména"
+  },
+  {
+    "id": "population",
+    "indicator": "Population estimée",
+    "value": 66000,
+    "unit": "habitants",
+    "year": null,
+    "source": "ndjamena6.com (non daté)",
+    "reliability": "a_confirmer",
+    "note": "Données non datées. Attendre résultats RGPH-3 (2026)"
+  },
+  {
+    "id": "menages",
+    "indicator": "Ménages",
+    "value": 10792,
+    "unit": "ménages",
+    "year": null,
+    "source": "ndjamena6.com (non daté)",
+    "reliability": "a_confirmer"
+  },
+  {
+    "id": "quartiers",
+    "indicator": "Quartiers",
+    "value": 2,
+    "unit": "quartiers",
+    "year": 2009,
+    "source": "Décret n°285/PR/PM/MISP/2009",
+    "reliability": "verifie"
+  },
+  {
+    "id": "carres",
+    "indicator": "Carrés",
+    "value": 27,
+    "unit": "carrés",
+    "year": null,
+    "source": "ndjamena6.com",
+    "reliability": "a_confirmer"
+  },
+  {
+    "id": "conseillers",
+    "indicator": "Conseillers municipaux",
+    "value": 18,
+    "unit": "élus",
+    "year": 2024,
+    "source": "Cour Suprême du Tchad, janvier 2025",
+    "reliability": "verifie"
+  },
+  {
+    "id": "inscrits-2024",
+    "indicator": "Électeurs inscrits (2024)",
+    "value": 54477,
+    "unit": "électeurs",
+    "year": 2024,
+    "source": "Cour Suprême du Tchad",
+    "reliability": "verifie"
+  }
+]
