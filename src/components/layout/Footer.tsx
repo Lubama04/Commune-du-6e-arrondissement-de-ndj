@@ -9,7 +9,7 @@ const data = commune as Commune;
 
 export function Footer() {
   return (
-    <footer className="bg-[color:var(--color-surface-dark)] text-[color:var(--color-text-inverse)]">
+    <footer className="border-t-[3px] border-[color:var(--color-accent)] bg-[color:var(--color-surface-dark)] text-[color:var(--color-text-inverse)]">
       <div className="mx-auto grid max-w-(--max-width-content) gap-10 px-4 py-16 sm:px-6 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="mb-3 flex items-center gap-2.5">
@@ -25,13 +25,19 @@ export function Footer() {
           <ul className="flex flex-col gap-2">
             {NAV_ITEMS.map((item) => (
               <li key={item.to}>
-                <Link to={item.to} className="text-small text-white/80 hover:text-white">
+                <Link
+                  to={item.to}
+                  className="text-small text-[color:var(--color-accent)] hover:text-[color:var(--color-accent-warm)]"
+                >
                   {item.label}
                 </Link>
               </li>
             ))}
             <li>
-              <Link to="/documents" className="text-small text-white/80 hover:text-white">
+              <Link
+                to="/documents"
+                className="text-small text-[color:var(--color-accent)] hover:text-[color:var(--color-accent-warm)]"
+              >
                 Documents
               </Link>
             </li>

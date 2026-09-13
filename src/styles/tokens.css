@@ -1,36 +1,41 @@
 :root {
-  /* === BRAND === */
-  --color-brand-primary: #1b4332; /* Vert forêt profond — autorité, territoire, Chari */
-  --color-brand-secondary: #2d6a4f; /* Vert moyen — complémentaire */
-  --color-accent: #d4a017; /* Or sable du Sahel — accent précis, chaleur, soleil */
-  --color-accent-hover: #b8860b; /* Or foncé — hover */
+  /* === BRAND — Inspiré du drapeau tchadien et du Sahel === */
+  --color-brand-primary: #1a3a6b; /* Bleu cobalt profond — drapeau tchadien, autorité */
+  --color-brand-secondary: #1e4d8c; /* Bleu cobalt moyen */
+  --color-brand-light: #2e6cb8; /* Bleu plus lumineux pour hover */
+  --color-accent: #c8900a; /* Or ocre du Sahel — soleil, sable, chaleur */
+  --color-accent-hover: #a67308; /* Or foncé — hover */
+  --color-accent-warm: #d4a843; /* Or clair pour fond de badges */
 
   /* === SURFACES === */
-  --color-surface: #fafaf7; /* Blanc cassé légèrement chaud */
+  --color-surface: #f8f6f1; /* Blanc sable — parchemin léger */
   --color-surface-elevated: #ffffff;
-  --color-surface-muted: #f0ede6; /* Parchemin léger */
-  --color-surface-dark: #0f2419; /* Vert très sombre pour sections foncées */
+  --color-surface-muted: #ede9e0; /* Sable chaud */
+  --color-surface-dark: #0e2347; /* Bleu nuit tchadien — sections sombres */
+  --color-surface-warm: #fbf7ee; /* Crème pour sections alternées */
 
   /* === TEXTE === */
-  --color-text-primary: #0f2419; /* Quasi-noir vert */
-  --color-text-secondary: #4a6555; /* Gris-vert */
-  --color-text-muted: #7a9a85;
-  --color-text-inverse: #fafaf7; /* Sur fonds sombres */
+  --color-text-primary: #0e1f3d; /* Quasi-noir bleu — lisible sur blanc sable */
+  --color-text-secondary: #3d5478; /* Bleu gris secondaire */
+  --color-text-muted: #6b80a0; /* Gris bleuté atténué */
+  --color-text-inverse: #f8f6f1; /* Texte sur fonds sombres */
 
   /* === ÉTATS === */
-  --color-success: #2d6a4f;
-  --color-warning: #d4a017;
-  --color-error: #c0392b;
-  --color-info: #2471a3;
+  --color-success: #1a6b3a; /* Vert discret */
+  --color-warning: #c8900a;
+  --color-error: #b32d2d;
+  --color-info: #1a3a6b;
 
   /* === BORDURES === */
   --color-border: #d4cfc4;
-  --color-border-strong: #1b4332;
+  --color-border-strong: #1a3a6b;
+  --color-border-blue: #1a3a6b;
+  --color-border-gold: #c8900a;
 
   /* === FIABILITÉ (badges de données) === */
-  --color-verifie: #1b4332;
-  --color-a-confirmer: #d4a017;
-  --color-non-trouve: #95a5a6;
+  --color-verifie: #1a6b3a;
+  --color-a-confirmer: #c8900a;
+  --color-non-trouve: #8090a8;
 
   /* === TYPOGRAPHIE === */
   --font-display: 'Spectral', Georgia, serif; /* Titres — caractère éditorial */

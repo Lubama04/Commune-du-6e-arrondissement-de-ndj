@@ -101,22 +101,18 @@ a {
   transform: translateY(0);
 }
 
-/* === Motif losange tchadien (hero) === */
-.pattern-losange {
-  background-image: repeating-linear-gradient(
-      45deg,
-      rgba(212, 160, 23, 0.06) 0,
-      rgba(212, 160, 23, 0.06) 1px,
-      transparent 1px,
-      transparent 24px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      rgba(212, 160, 23, 0.06) 0,
-      rgba(212, 160, 23, 0.06) 1px,
-      transparent 1px,
-      transparent 24px
-    );
+/* === Fond « Sahel institutionnel » — dégradé bleu nuit → bleu cobalt, sobre === */
+/* Utilisé pour les en-têtes de pages intérieures (PageHeader). Aucun motif,
+   aucune texture : surface propre et institutionnelle. */
+.sahel-gradient {
+  background: linear-gradient(160deg, #0e2347 0%, #1a3a6b 100%);
+}
+
+/* Dégradé du Hero (accueil) : trois arrêts, légèrement plus lumineux en bas
+   à droite. Les éléments décoratifs (barre or, cercles, ligne dorée) sont
+   des éléments dédiés dans HeroSection.tsx, pas un motif répété. */
+.sahel-gradient-hero {
+  background: linear-gradient(160deg, #0e2347 0%, #1a3a6b 60%, #1e4d8c 100%);
 }
 
 @media (prefers-reduced-motion: reduce) {
