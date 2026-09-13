@@ -27,20 +27,21 @@ export function Header() {
     <>
       <AlertBanner />
       <header
-        className={`sticky top-0 z-40 transition-colors duration-300 ${
-          scrolled
-            ? 'bg-[color:var(--color-brand-primary)]/95 backdrop-blur shadow-md'
-            : 'bg-[color:var(--color-brand-primary)]'
+        className={`sticky top-0 z-40 bg-[color:var(--color-surface)] transition-shadow duration-300 ${
+          scrolled ? 'border-b border-[color:var(--color-border)] shadow-[0_2px_12px_rgba(26,58,107,0.10)]' : ''
         }`}
       >
         <div className="mx-auto flex max-w-(--max-width-content) items-center justify-between px-4 py-3 sm:px-6">
-          <Link to="/" className="flex items-center gap-2.5 text-[color:var(--color-text-inverse)]" aria-label="Accueil — Commune du 6ᵉ Arrondissement de N'Djaména">
+          <Link to="/" className="flex items-center gap-2.5" aria-label="Accueil — Commune du 6ᵉ Arrondissement de N'Djaména">
             <Landmark size={28} className="text-[color:var(--color-accent)]" strokeWidth={1.75} aria-hidden="true" />
             <span className="leading-tight">
-              <span className="block text-sm font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+              <span
+                className="block text-sm font-semibold text-[color:var(--color-brand-primary)]"
+                style={{ fontFamily: 'var(--font-display)' }}
+              >
                 6ᵉ Arrondissement
               </span>
-              <span className="block text-xs opacity-80">N'Djaména</span>
+              <span className="block text-xs text-[color:var(--color-accent)]">N'Djaména</span>
             </span>
           </Link>
 
@@ -51,8 +52,10 @@ export function Header() {
                   <NavLink
                     to={item.to}
                     className={({ isActive }) =>
-                      `inline-block rounded-md px-3 py-2 text-sm font-medium text-[color:var(--color-text-inverse)] transition-colors hover:bg-white/10 ${
-                        isActive ? 'border-b-2 border-[color:var(--color-accent)]' : ''
+                      `inline-block rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-[color:var(--color-brand-primary)]/5 hover:text-[color:var(--color-accent)] ${
+                        isActive
+                          ? 'border-b-2 border-[color:var(--color-accent)] text-[color:var(--color-accent)]'
+                          : 'text-[color:var(--color-brand-primary)]'
                       }`
                     }
                   >
@@ -66,7 +69,7 @@ export function Header() {
           <div className="flex items-center gap-2">
             <Link
               to="/contact"
-              className="hidden rounded-md bg-[color:var(--color-accent)] px-4 py-2 text-sm font-semibold text-[color:var(--color-surface-dark)] transition-colors hover:bg-[color:var(--color-accent-hover)] sm:inline-block"
+              className="hidden rounded-md bg-[color:var(--color-brand-primary)] px-4 py-2 text-sm font-semibold text-[color:var(--color-text-inverse)] transition-colors hover:bg-[color:var(--color-brand-secondary)] sm:inline-block"
             >
               Nous contacter
             </Link>
@@ -74,7 +77,7 @@ export function Header() {
               type="button"
               aria-label="Ouvrir le menu"
               onClick={() => setMenuOpen(true)}
-              className="rounded-md p-2 text-[color:var(--color-text-inverse)] hover:bg-white/10 md:hidden"
+              className="rounded-md p-2 text-[color:var(--color-brand-primary)] hover:bg-[color:var(--color-brand-primary)]/5 md:hidden"
             >
               <Menu size={24} aria-hidden="true" />
             </button>
