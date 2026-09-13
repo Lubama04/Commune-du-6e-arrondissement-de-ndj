@@ -4,7 +4,7 @@
 
 ## 🌐 Site en ligne
 
-[commune6-ndjamena.vercel.app](https://commune6-ndjamena.vercel.app)
+[commune-6e-arrondissement-ndjamena.vercel.app](https://commune-6e-arrondissement-ndjamena.vercel.app)
 
 ## 📋 Stack
 

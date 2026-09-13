@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://commune6-ndjamena.vercel.app/sitemap.xml
+Sitemap: https://commune-6e-arrondissement-ndjamena.vercel.app/sitemap.xml
