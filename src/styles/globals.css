@@ -26,14 +26,28 @@ html {
   scroll-behavior: smooth;
 }
 
-html,
-body {
+:root {
+  /* Hauteur par défaut du bandeau fixe (header + éventuelle alerte) —
+     valeur de repli documentaire ; la hauteur réelle appliquée au spacer
+     est mesurée dynamiquement dans Header.tsx (ResizeObserver) pour rester
+     exacte quand l'alerte est fermée ou que la barre de navigation change
+     de taille. */
+  --header-height: 72px;
+}
+
+/* Garde-fou contre le débordement horizontal — appliqué uniquement à `html`
+   (l'élément de défilement du document). Ajouter aussi `overflow-x: hidden`
+   sur `body` transforme celui-ci en second conteneur de défilement imbriqué
+   et casse `position: fixed` (le header fixe ne resterait plus collé au
+   viewport pendant le scroll) : ne pas dupliquer la règle sur `body`. */
+html {
   overflow-x: hidden;
   max-width: 100%;
 }
 
 body {
   margin: 0;
+  max-width: 100%;
   background: var(--color-surface);
   color: var(--color-text-primary);
   -webkit-font-smoothing: antialiased;
@@ -115,6 +129,75 @@ a {
   background: linear-gradient(160deg, #0e2347 0%, #1a3a6b 60%, #1e4d8c 100%);
 }
 
+/* === Bandeau d'alerte sanitaire — ticker défilant === */
+.alert-ticker-wrapper {
+  background-color: var(--color-error);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  gap: 16px;
+}
+
+.alert-ticker-track {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.alert-ticker-content {
+  display: inline-block;
+  animation: ticker-scroll 35s linear infinite;
+  /* 35s = vitesse lente et lisible */
+}
+
+.alert-ticker-content:hover {
+  animation-play-state: paused;
+  /* Pause au survol pour permettre la lecture */
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.alert-ticker-link {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.alert-ticker-link:hover {
+  text-decoration: none;
+}
+
+.alert-ticker-close {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  opacity: 0.8;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+}
+.alert-ticker-close:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.15);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -130,5 +213,9 @@ a {
   .reveal {
     opacity: 1;
     transform: none;
+  }
+  .alert-ticker-content {
+    animation: none;
+    /* Texte statique, sans défilement, pour les utilisateurs sensibles au mouvement */
   }
 }

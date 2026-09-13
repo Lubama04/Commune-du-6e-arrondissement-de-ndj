@@ -10,7 +10,7 @@ interface MobileMenuProps {
 export function MobileMenu({ open, onClose }: MobileMenuProps) {
   return (
     <div
-      className={`fixed inset-0 z-50 bg-[color:var(--color-surface-dark)] text-[color:var(--color-text-inverse)] transition-transform duration-300 md:hidden ${
+      className={`fixed inset-0 z-[60] bg-[color:var(--color-surface-dark)] text-[color:var(--color-text-inverse)] transition-transform duration-300 md:hidden ${
         open ? 'translate-x-0' : 'translate-x-full pointer-events-none'
       }`}
       role="dialog"
